@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
+import com.containment.Employee1;
+
 	class Employee
 	{
 		
@@ -53,7 +55,7 @@ import java.util.Scanner;
 			System.out.println("Enter the Salaray");
 			int sal=sc.nextInt();
 
-			li.add(new Employee (id,ename,sal));
+			li.add(new Employee(sal, ename, sal));
 			
 		}
 	         System.out.println(li);
@@ -69,7 +71,7 @@ import java.util.Scanner;
 		{
 		Employee e =it.next();
 		
-		if (e.salary>6000)
+		//if (e.salary>6000)
 		{
 			System.out.println(e);
 		}
